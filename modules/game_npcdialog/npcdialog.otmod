@@ -1,9 +1,0 @@
-Module
-  name: game_npcdialog
-  description: NPC dialog
-  author: Kilowog
-  website: none
-  sandboxed: true
-  scripts: [ npcdialog ]
-  @onLoad: init()
-  @onUnload: terminate()
