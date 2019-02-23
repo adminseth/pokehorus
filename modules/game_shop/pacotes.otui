@@ -1,0 +1,40 @@
+AddonButton < UIButton
+  width: 543
+  height: 111
+
+ItensLeyolt < UIButton
+  width: 541
+  height: 87
+  
+Panel
+  AddonButton
+    image-source: images/.
+    anchors.top: parent.top
+    anchors.left: parent.left
+
+  AddonButton
+    image-source: images/.
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 120
+
+  AddonButton
+    image-source: images/pacotes/1
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 1
+    margin-left: -5
+
+  AddonButton
+    image-source: images/pacotes/2
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 120
+    margin-left: -5
+
+  ItensLeyolt
+    image-source: images/pacotes/VipPackage
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -70
+    margin-left: -2

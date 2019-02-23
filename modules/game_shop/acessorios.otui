@@ -1,0 +1,105 @@
+AddonButton < UIButton
+  width: 119
+  height: 89
+
+ItensLeyolt < UIButton
+  width: 541
+  height: 87
+
+Panel
+  AddonButton
+    image-source: images/acessorios/1
+    anchors.top: parent.top
+    anchors.left: parent.left
+    @onClick: modules.game_shop.tm1819()
+
+  AddonButton
+    image-source: images/acessorios/2
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 120
+    @onClick: modules.game_shop.tm1820()
+
+  AddonButton
+    image-source: images/acessorios/3
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 90
+    @onClick: modules.game_shop.tm1821()
+
+  AddonButton
+    image-source: images/acessorios/4
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 240
+    @onClick: modules.game_shop.tm1822()
+
+  AddonButton
+    image-source: images/acessorios/5
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 90
+    margin-left: 240
+    @onClick: modules.game_shop.tm1823()
+
+  AddonButton
+    image-source: images/acessorios/6
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 90
+    margin-left: 120
+    @onClick: modules.game_shop.horus()
+
+  AddonButton
+    image-source: images/acessorios/7
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 180
+    @onClick: modules.game_shop.tm14blizzard()
+
+  AddonButton
+    image-source: images/acessorios/8
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 180
+    margin-left: 120
+    @onClick: modules.game_shop.horus()
+
+  AddonButton
+    image-source: images/acessorios/9
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 180
+    margin-left: 240
+    @onClick: modules.game_shop.horus()
+
+  AddonButton
+    image-source: images/acessorios/10
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 180
+    margin-left: 360
+    @onClick: modules.game_shop.horus()
+
+  AddonButton
+    image-source: images/acessorios/11
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 90
+    margin-left: 360
+    @onClick: modules.game_shop.horus()
+
+  AddonButton
+    image-source: images/acessorios/12
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 1
+    margin-left: 360
+    @onClick: modules.game_shop.horus()
+
+  ItensLeyolt
+    image-source: images/acessorios/acessorios
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -70
+    margin-left: -2

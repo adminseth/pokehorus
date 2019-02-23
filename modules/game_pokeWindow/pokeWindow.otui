@@ -1,0 +1,216 @@
+StatsLabel < Label
+  font: verdana-11px-monochrome
+  anchors.right: parent.right
+  color: black
+
+  $first:
+    anchors.top: parent.top
+    margin-top: 125
+
+  $!first:
+    margin-top: 3
+    anchors.top: prev.bottom
+
+MainWindow
+  id: pokeWindow
+  image-source: /modules/game_pokeWindow/img/infow
+  size: 156 123
+  opacity: 2
+  visible: false
+  focusable: false
+  !text: tr('')
+  margin-top:100
+  margin-left: 80
+
+  
+
+  StatsLabel
+    id: attack
+    !text: tr('')
+    text-auto-resize: true
+
+  StatsLabel
+    id: defense
+    !text: tr('')
+    text-auto-resize: true
+
+  StatsLabel
+    id: eattack
+    !text: tr('')
+    text-auto-resize: true
+
+  StatsLabel
+    id: edefense
+    !text: tr('')
+    text-auto-resize: true
+
+  StatsLabel
+    id: speed
+    !text: tr('')
+    text-auto-resize: true
+
+  Label
+    id: pokename
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 22
+    margin-left: 101
+    !text: tr('')  
+    color: green
+    
+
+  Label
+    id: pokelevel
+    anchors.left: vitinfo.left
+    anchors.top: parent.top
+    margin-top: 109
+    margin-left: 80
+    !text: tr('')  
+    color: black
+    
+
+  Label
+    id: boost
+    anchors.left: vitinfo.left
+    anchors.top: parent.top
+    margin-top: 109
+    margin-left: 0
+    !text: tr('')  
+    color: white
+
+  UIButton
+    id: runButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 43
+    margin-left: -10
+    width: 47
+    height: 17
+    image-size: 47 17
+    image-source: /modules/game_pokeWindow/img/call
+    image-clip: 0 0 0 0
+    @onClick: g_game.talk('#ame#')
+
+  UIButton
+    id: runButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 65
+    margin-left: -10
+    width: 47
+    height: 17
+    image-size: 47 17
+    image-source: /modules/game_pokeWindow/img/run
+    image-clip: 0 0 0 0
+    @onClick: g_game.talk('!revert')
+
+  UIButton
+    id: runButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 35
+    margin-left: 80
+    width: 22
+    height: 22
+    image-size: 21 21
+    image-source: /modules/game_pokeWindow/img/sdown
+    image-clip: 0 0 0 0
+    @onClick: g_game.talk('t3')
+
+  UIButton
+    id: runButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 23
+    margin-left: 60
+    width: 22
+    height: 22
+    image-size: 20 20
+    image-source: /modules/game_pokeWindow/img/sleft
+    image-clip: 0 0 0 0
+    @onClick: g_game.talk('t4')
+
+  UIButton
+    id: runButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 10
+    margin-left: 80
+    width: 22
+    height: 22
+    image-size: 21 20
+    image-source: /modules/game_pokeWindow/img/sup
+    image-clip: 0 0 0 0
+    @onClick: g_game.talk('t1')
+
+  UIButton
+    id: runButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 23
+    margin-left: 102
+    width: 22
+    height: 22
+    image-size: 20 20
+    image-source: /modules/game_pokeWindow/img/sright
+    image-clip: 0 0 0 0
+    @onClick: g_game.talk('t2')
+
+
+  LegSlot
+    id: slot7
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 1
+    margin-left: -10
+    width: 47
+    height: 47
+    image-size: 40 40
+  Label
+    id: attackinfo
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 125
+    margin-left: -7
+    !text: tr('')  
+    color: white
+
+  Label
+    id: defenseinfo
+    anchors.left: attackinfo.left
+    anchors.top: attackinfo.top
+    margin-top: 15
+    margin-left: 0
+    !text: tr('')  
+    color: white		
+
+  Label
+    id: spatinfo
+    anchors.left: attackinfo.left
+    anchors.top: attackinfo.top
+    margin-top: 31
+    margin-left: 0
+    !text: tr('')  
+    color: white
+
+  Label
+    id: vitinfo
+    anchors.left: attackinfo.left
+    anchors.top: attackinfo.top
+    margin-top: 47
+    margin-left: 0
+    !text: tr('')  
+    color: white
+
+  Label
+    id: agiinfo
+    anchors.left: attackinfo.left
+    anchors.top: attackinfo.top
+    margin-top: 63
+    margin-left: 0
+    !text: tr('')  
+    color: white
+
+  
+
+  @onEscape: terminate()
