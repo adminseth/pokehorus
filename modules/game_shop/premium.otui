@@ -1,0 +1,19 @@
+AddonButton < UIButton
+  width: 166
+  height: 227
+  
+ItensLeyolt < UIButton
+  width: 541
+  height: 87
+
+Panel
+  AddonButton
+    image-source: images/premiu/p1
+    !tooltip: tr('vip ETERNO')
+    anchors.top: parent.top
+    anchors.left: parent.left
+    @onClick: modules.game_shop.premium1()
+
+
+
+  

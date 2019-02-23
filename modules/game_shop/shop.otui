@@ -1,0 +1,74 @@
+AddonButton < UIButton
+  width: 114
+  height: 24
+  
+exit < UIButton
+  width: 92
+  height: 29
+
+MainWindow
+  id: shopWindow
+  image-source: images/shopItemsPanel
+  size: 798 448
+
+  TabBarVertical
+    id: shopTabBar
+    image-source: images/barra
+    size: 100 150
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 54
+    margin-left: 38
+
+  Panel
+    id: shopTabContent
+    anchors.top: shopTabBar.top
+    anchors.left: shopTabBar.right
+    anchors.right: parent.right
+    anchors.bottom: closeButton.top
+    margin-left: 50
+    margin-top: 63
+
+  AddonButton
+    image-source: /modules/game_shop/images/buttonimg/donate
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 27
+    margin-top: 362
+    @onClick: os.execute("start ")
+
+  exit
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-source: images/exit
+    size: 54 50
+    image-clip: 0 0 54 50
+    margin-left: 725
+    margin-top: -20
+    margin-right: 50
+    @onClick: modules.game_shop.hide()
+
+    $hover:
+      image-clip: 0 50 54 50
+
+    $pressed:
+      image-clip: 0 50 54 50
+
+  Button
+    id: closeButton
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    image-source: images/exit
+    size: 54 50
+    image-clip: 0 0 54 50
+    margin-left: 50
+    width: 50
+    margin-top: 70
+    margin-right: 7
+    @onClick: modules.game_shop.hide()
+
+    $hover:
+      image-clip: 0 50 49 50
+
+    $pressed:
+      image-clip: 0 100 49 50

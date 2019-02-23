@@ -1,0 +1,143 @@
+HeadlessWindow
+  id: memory
+  size: 230 310
+  anchors.centerIn: parent
+  @onEnter: modules.game_held.hide()
+  @onEscape: modules.game_held.hide()
+  focusable: false
+
+  UIButton
+    id: closeButton
+    @onClick: modules.game_held.hide()
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: -3
+    margin-right: -2
+    size: 14 14
+    image-source: /images/ui/miniwindow_buttons
+    image-clip: 28 0 14 14
+
+    $hover:
+      image-clip: 28 14 14 14
+
+    $pressed:
+      image-clip: 28 28 14 14
+
+  UIWidget
+    id: iconDitto
+    size: 16 16
+    image-source: /images/game/skulls/skull_white
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 1
+
+  Label
+    id: windownName
+    !text: tr('Token Machine')
+    text-align: center
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 20
+    phantom: true
+    @onClick: modules.game_memory.hide()
+
+  Button
+    id: trade1
+    !text: tr('10 Devoted tokens (Tier 1-2)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 20
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(1)
+
+  Button
+    id: trade5
+    !text: tr('25 Devoted tokens (10 Special Balls)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade1.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(5)
+
+  Button
+    id: trade2
+    !text: tr('7 Mighty tokens (Tier 1-3)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade5.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(2)
+
+  Button
+    id: trade3
+    !text: tr('15 Mighty tokens (Tier 2-4)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade2.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(3)
+
+  Button
+    id: trade4
+    !text: tr('25 Mighty tokens (Tier 4-6)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade3.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(4)
+
+  Button
+    id: trade6
+    !text: tr('3 Honored tokens (Tier 3)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade4.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(6)
+
+  Button
+    id: trade7
+    !text: tr('7 Honored tokens (Tier 3-5)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade6.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(7)
+
+  Button
+    id: trade8
+    !text: tr('15 Honored tokens (Tier 5-7)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade7.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(8)
+
+  Button
+    id: trade9
+    !text: tr('100 Honored tokens (Shiny Box)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade8.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(9)
+
+  Button
+    id: trade10
+    !text: tr('500 Honored tokens (Mega Stone)')
+    width: 210
+    anchors.left: parent.left
+    anchors.top: trade9.top
+    margin-top: 28
+    margin-left: 7
+    @onClick: modules.game_held.sendRequestShow(10)

@@ -1,0 +1,300 @@
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 18 2018 03:07:26
+exception: Access violation (0xc0000005)
+exception address: 0x0045c414
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045C414]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045D302]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045D4FC]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045D5D0]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045B3A4]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045B444]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045367F]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000453AE0]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x20590d) [0x00000000006D579D]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045839C]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x3650b) [0x000000000050639B]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x3e524) [0x000000000050E3B4]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x3f532) [0x000000000050F3C2]
+    13: C:\Windows\SysWOW64\ntdll.dll(RtlAllocateHeap+0xac) [0x0000000077CBE0E2]
+    14: C:\Windows\SysWOW64\ntdll.dll(RtlQueryPerformanceCounter+0x6ad) [0x0000000077CC2F91]
+    15: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x36ff9) [0x0000000000506E89]
+    16: Unknown [0x0000000083745D89]
+    17: Unknown [0x000000005E5B2CC4]
+    18: Unknown [0x000000008BC35D5F]
+    19: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x2ff25bc) [0x00000000034C244C]
+    20: Unknown [0x000000004C89204D]
+    21: Unknown [0x000000002C890424]
+    22: Unknown [0x0000000024448924]
+    23: Unknown [0x00000000244C8910]
+    24: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x698e984) [0x0000000006E5E814]
+    25: Unknown [0x000000004C8B0000]
+    26: Unknown [0x000000004C891424]
+    27: Unknown [0x00000000448B0824]
+    28: Unknown [0x0000000044891024]
+    29: Unknown [0x000000002C890424]
+    30: Unknown [0x00000000EFFDE824]
+    31: Unknown [0x000000008966FFFF]
+    32: Unknown [0x000000004D8B347D]
+    33: Unknown [0x0000000024742B28]
+    34: Unknown [0x0000000089CE0118]
+    35: Unknown [0x000000003E8B1475]
+    36: Unknown [0x000000008B0C7D89]
+    37: Unknown [0x000000007D890C7E]
+    38: Unknown [0x0000000024548A18]
+    39: Unknown [0x000000003955881F]
+    40: Unknown [0x0000000020307D81]
+    41: Unknown [0x000000008B00004E]
+    42: Unknown [0x000000007E102444]
+    43: Unknown [0x0000000081CE2993]
+    44: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x705e96e) [0x000000000752E7FE]
+    45: Unknown [0x00000000C7897F00]
+    46: Unknown [0x0000000020042444]
+    47: Unknown [0x000000008900004E]
+    48: Unknown [0x00000000C4E8242C]
+    49: Unknown [0x000000008BFFFFF1]
+    50: Unknown [0x00000000E9102444]
+    51: Unknown [0x00000000FFFFFF70]
+    52: Unknown [0x000000000026748D]
+    53: Unknown [0x000000000027BC8D]
+    54: Unknown [0x0000000056000000]
+    55: Unknown [0x0000000044EC8353]
+    56: Unknown [0x0000000050245C8B]
+    57: Unknown [0x000000005424448B]
+    58: Unknown [0x000000002C244489]
+    59: Unknown [0x000000005824448B]
+    60: Unknown [0x000000003C244489]
+    61: Unknown [0x00000000302444C7]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 18 2018 03:07:52
+exception: Access violation (0xc0000005)
+exception address: 0x0045c414
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045C414]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045D302]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045D4FC]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045D5D0]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045B3A4]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045B444]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045367F]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000453AE0]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x20590d) [0x00000000006D579D]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000045839C]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x3650b) [0x000000000050639B]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 19 2018 02:24:40
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004240c7
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004240C7]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000424263]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000437A2A]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000042E2FC]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000044AA4F]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DCB0]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000049CFE4]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000047898E]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x252715) [0x00000000007225A5]
+    13: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000401250]
+    14: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004012D5]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077CC9882]
+    16: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077CC9855]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 19 2018 02:25:15
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004240c7
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004240C7]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000424263]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000437A2A]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000042E2FC]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000044AA4F]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DCB0]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000049CFE4]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000047898E]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x252715) [0x00000000007225A5]
+    13: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000401250]
+    14: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004012D5]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077CC9882]
+    16: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077CC9855]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 19 2018 14:18:04
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004240c7
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004240C7]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000424263]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000437A2A]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000042E2FC]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000044AA4F]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DCB0]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000049CFE4]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000047898E]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x252715) [0x00000000007225A5]
+    13: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000401250]
+    14: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004012D5]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077CC9882]
+    16: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077CC9855]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 19 2018 16:20:30
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004240c7
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004240C7]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000424263]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000437A2A]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000042E2FC]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000044AA4F]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DCB0]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000049CFE4]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000047898E]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x252715) [0x00000000007225A5]
+    13: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000401250]
+    14: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004012D5]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077CC9882]
+    16: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077CC9855]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 19 2018 16:22:00
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004240c7
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004240C7]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000424263]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000437A2A]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000042E2FC]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000044AA4F]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DCB0]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000049CFE4]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000047898E]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x252715) [0x00000000007225A5]
+    13: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000401250]
+    14: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004012D5]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077CC9882]
+    16: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077CC9855]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 19 2018 16:24:04
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004240c7
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004240C7]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000424263]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000437A2A]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000042E2FC]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000044AA4F]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DCB0]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000049CFE4]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000047898E]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x252715) [0x00000000007225A5]
+    13: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000401250]
+    14: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004012D5]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077CC9882]
+    16: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077CC9855]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 22 2016
+build type: Release
+build revision: 0 (By Drakopoulos)
+crash date: Jul 23 2018 23:43:27
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004240c7
+  backtrace:
+    0: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004240C7]
+    1: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000424263]
+    2: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000437A2A]
+    3: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000042E2FC]
+    4: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000044AA4F]
+    5: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DCB0]
+    6: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    7: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    8: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DB43]
+    9: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000046DD15]
+    10: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x000000000049CFE4]
+    11: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000478929]
+    12: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe(alGetListeneriv+0x252715) [0x00000000007225A5]
+    13: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x0000000000401250]
+    14: C:\Users\1337\Desktop\Client Poke Horus\Horus.exe [0x00000000004012D5]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077339882]
+    16: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077339855]
+
